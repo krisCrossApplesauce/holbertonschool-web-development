@@ -5,6 +5,15 @@
 }
 /*  END OF FONTS  */
 
+body {
+	margin: 0;
+}
+
+.background_image {
+	background-image: url(images_fonts/background.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+}
 
 /*  HEADER  */
 .header {
@@ -36,7 +45,7 @@
 
 
 /*  SECTION ONE  */
-body {
-	background-color: grey;
+.section_one {
+	text-align: center;
 }
 /*  END OF SECTION ONE  */
