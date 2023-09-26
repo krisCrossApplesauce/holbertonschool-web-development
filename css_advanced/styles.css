@@ -7,31 +7,21 @@
 
 
 /*  HEADER  */
-header div {
-	width: 100%;
-	height: 100%;
+.header {
 	position: relative;
-	margin-left: auto;
+	display: flex;
+	margin-left: 170px;
+	margin-right: 170px;
 }
 
 .logo {
-	width: 100%;
-	height: 100%;
-	left: 0px;
-	top: 0px;
-	position: absolute;
+	flex: 1 1 auto;
 }
 
 .menu {
-	width: 100%;
-	height: 100%;
-	right: 0px;
-	top: 2px;
-	position: absolute;
-	justify-content: center;
-	align-items: flex-start;
-	gap: 53px;
 	display: inline-flex;
+	gap: 53px;
+	align-items: flex-end;
 }
 
 .menu-nav {
@@ -40,6 +30,7 @@ header div {
 	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 700;
 	word-wrap: break-word;
+	text-decoration: none;
 }
 /*  END OF HEADER  */
 
