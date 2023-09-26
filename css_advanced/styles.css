@@ -1,8 +1,17 @@
+/*  FONTS  */
+@font-face {
+	font-family: "Source Sans Pro";
+	src: url("images_fonts/source_sans_pro/SourceSansPro-Regular.otf");
+}
+/*  END OF FONTS  */
+
+
 /*  HEADER  */
-header {
+header div {
 	width: 100%;
 	height: 100%;
 	position: relative;
+	margin-left: auto;
 }
 
 .logo {
@@ -28,8 +37,15 @@ header {
 .menu-nav {
 	color: white;
 	font-size: 12px;
-	font-family: "Source Sans Pro";
+	font-family: "Source Sans Pro", sans-serif;
 	font-weight: 700;
 	word-wrap: break-word;
 }
 /*  END OF HEADER  */
+
+
+/*  SECTION ONE  */
+body {
+	background-color: grey;
+}
+/*  END OF SECTION ONE  */
