@@ -5,6 +5,7 @@
 }
 /*  END OF FONTS  */
 
+/*  ?  */
 body {
 	margin: 0;
 }
@@ -23,6 +24,8 @@ body {
 .rest_of_sentence {
 	font-weight: 100;
 }
+/*  END OF ?  */
+
 
 /*  HEADER  */
 .header {
@@ -121,3 +124,90 @@ body {
 	font-weight: 400;
 }
 /*  END OF SECTION ONE  */
+
+
+/*  START OF SECTION TWO  */
+.section_two {
+	background-color: #C271FF;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 22px;
+	word-wrap: break-word;
+}
+
+.section_two div {
+	margin-left: 40px;
+	width: 700px;
+}
+
+.section_two div .name {
+	margin-bottom: 0px;
+	font-weight: 700;
+}
+
+.section_two div .profession {
+	margin-top: 0px;
+	font-style: italic;
+}
+/*  END OF SECTION TWO  */
+
+
+/*  START OF SECTION THREE  */
+.section_three {
+	text-align: center;
+	word-wrap: break-word;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.tutorials {
+	margin: 40px 150px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.tutorial {
+	width: 255;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.reviews {
+	color: #C271FF;
+}
+
+.phil_review {
+	display: inline-flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 10px;
+}
+
+.phil_review img {
+	width: 30px;
+	height: 30px;
+}
+
+.overall_review {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+}
+/*  END OF SECTION THREE  */
+
+
+/*  START OF SECTION FOUR  */
+/*  END OF SECTION FOUR  */
+
+
+/*  START OF SECTION FIVE  */
+/*  END OF SECTION FIVE  */
+
+
+/*  START OF FOOTER  */
+/*  END OF FOOTER  */
