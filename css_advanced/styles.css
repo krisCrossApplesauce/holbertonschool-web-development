@@ -15,12 +15,22 @@ body {
 	background-size: auto;
 }
 
+.keyword {
+	font-weight: 800;
+	color: #C271FF;
+}
+
+.rest_of_sentence {
+	font-weight: 100;
+}
+
 /*  HEADER  */
 .header {
 	position: relative;
 	display: flex;
 	margin-left: 170px;
 	margin-right: 170px;
+	padding-top: 10px;
 }
 
 .logo {
@@ -30,7 +40,8 @@ body {
 .menu {
 	display: inline-flex;
 	gap: 53px;
-	align-items: flex-end;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .menu-nav {
@@ -49,17 +60,18 @@ body {
 	text-align: center;
 	font-family: "Source Sans Pro", sans-serif;
 	color: white;
-	font-weight: 700;
 	word-wrap: break-word;
 }
 
 .section_one h1 {
 	font-size: 120px;
+	font-weight: bold;
 	margin-bottom: 0px;
 }
 
 .words {
 	font-size: 16px;
+	font-weight: 700;
 	display: inline-flex;
 	gap: 58px;
 	align-items: center;
@@ -80,13 +92,32 @@ body {
 	margin-bottom: 168px;
 }
 
+.section_one div .sentence {
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 32px;
+}
+
 .the_pros {
 	display: flex;
-	gap: 130;
+	justify-content: space-between;
 	align-items: center;
+	margin: 40px 150px;
 }
 
 .pro {
-	flex: 1 1 auto;
+	width: 150px;
+	word-wrap: break-word;
+}
+
+.pro h6 {
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.pro p {
+	font-style: italic;
+	font-weight: 400;
 }
 /*  END OF SECTION ONE  */
