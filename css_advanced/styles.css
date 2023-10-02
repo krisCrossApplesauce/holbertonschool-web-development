@@ -13,16 +13,12 @@ body {
 .background_image {
 	background-image: url(images_fonts/background.png);
 	background-repeat: no-repeat;
-	background-size: auto;
+	background-position: center;
+	background-size: cover;
 }
 
 .keyword {
-	font-weight: 800;
 	color: #C271FF;
-}
-
-.rest_of_sentence {
-	font-weight: 100;
 }
 /*  END OF ?  */
 
@@ -33,7 +29,7 @@ body {
 	display: flex;
 	margin-left: 170px;
 	margin-right: 170px;
-	padding-top: 10px;
+	padding-top: 30px;
 }
 
 .logo {
@@ -69,6 +65,7 @@ body {
 .section_one h1 {
 	font-size: 120px;
 	font-weight: bold;
+	margin-top: 160px;
 	margin-bottom: 0px;
 }
 
@@ -78,7 +75,7 @@ body {
 	display: inline-flex;
 	gap: 58px;
 	align-items: center;
-	margin-bottom: 40px;
+	margin-bottom: 60px;
 }
 
 .section_one button {
@@ -96,17 +93,16 @@ body {
 }
 
 .section_one div .sentence {
-	display: inline-flex;
-	flex-direction: row;
-	align-items: center;
 	font-size: 32px;
+	margin-bottom: 90px;
 }
 
 .the_pros {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 40px 150px;
+	margin: 10px 150px;
+	padding-bottom: 50px;
 }
 
 .pro {
@@ -159,15 +155,22 @@ body {
 
 /*  START OF SECTION THREE  */
 .section_three {
-	text-align: center;
 	word-wrap: break-word;
 	font-family: "Source Sans Pro", sans-serif;
+	color: #071629;
+}
+
+.section_three .sentence {
+	text-align: center;
+	font-size: 32px;
+	margin-top: 80px;
+	margin-bottom: 80px;
 }
 
 .tutorials {
-	margin: 40px 150px;
+	margin: 40px 80px 80px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .tutorial {
@@ -177,8 +180,47 @@ body {
 	align-items: flex-start;
 }
 
+.tutorial_preview {
+	width: 255px;
+	height: 154px;
+	position: relative;
+}
+
+.thumbnail {
+	position: absolute;
+	z-index: 0;
+}
+
+.play_button {
+	position: absolute;
+	z-index: 1;
+	left: 95px;
+	top: 45px;
+}
+
+.tutorial_title {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.tutorial_description {
+	color: rgba(7, 22, 41, 0.50);
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
 .reviews {
 	color: #C271FF;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.reviews p {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 27px;
 }
 
 .phil_review {
@@ -194,6 +236,7 @@ body {
 }
 
 .overall_review {
+	width: 255px;
 	display: inline-flex;
 	justify-content: space-between;
 	align-items: center;
@@ -202,10 +245,82 @@ body {
 
 
 /*  START OF SECTION FOUR  */
+.section_four {
+	text-align: center;
+	background-color: #071629;
+	color: white;
+	font-family: "Sourse Sans Pro", sans-serif;
+	word-wrap: break-word;
+}
+
+.section_four .sentence {
+	font-size: 32px;
+	font-weight: 300;
+	padding-top: 70px;
+	margin-bottom: 50px;
+}
+
+.options {
+	margin: 80px 100px 90px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.option {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.section_four button {
+	box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.50);
+	font-size: 14px;
+	font-weight: 500;
+	width: 190px;
+	height: 50px;
+	background-color: #C271FF;
+	border-radius: 30px;
+	border-style: none;
+	color: white;
+	margin-bottom: 80px;
+}
 /*  END OF SECTION FOUR  */
 
 
 /*  START OF SECTION FIVE  */
+.section_five {
+	color: #071629;
+	font-family: "Sourse Sans Pro", sans-serif;
+	word-wrap: break-word;
+}
+
+.faq_header {
+	text-align: center;
+	font-size: 60px;
+	font-weight: 300;
+}
+
+.row {
+	margin: 50px 130px 80px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.row .q_a {
+	width: 350px;
+}
+
+.question {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.row p {
+	color: rgba(7, 22, 41, 0.50);
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+}
 /*  END OF SECTION FIVE  */
 
 
