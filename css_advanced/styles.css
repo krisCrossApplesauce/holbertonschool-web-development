@@ -315,7 +315,8 @@ body {
 	font-weight: 700;
 }
 
-.row p {
+/* rename to .answer */
+.answer {
 	color: rgba(7, 22, 41, 0.50);
 	font-size: 14px;
 	line-height: 24px;
@@ -325,4 +326,25 @@ body {
 
 
 /*  START OF FOOTER  */
+footer {
+	background-color: #071629;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding: 95px 100px 70px;
+}
+
+footer p {
+	padding-bottom: 40px;
+	margin-bottom: 0px;
+	text-align: center;
+	opacity: 0.35;
+	color: white;
+	font-size: 12px;
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 400;
+	word-wrap: break-word;
+}
 /*  END OF FOOTER  */
